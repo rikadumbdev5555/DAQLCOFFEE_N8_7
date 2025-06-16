@@ -1,0 +1,36 @@
+/* Căn chỉnh container chứa nút */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Tùy chỉnh nút với kích thước đồng đều */
+.menu-item button {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 140px; /* Đảm bảo tất cả nút có cùng chiều rộng */
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+/* Nút thêm vào giỏ hàng */
+.cart-button {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Nút mua ngay */
+.buy-button {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Hiệu ứng hover */
+.menu-item button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,73 @@
+/* Định dạng chung */
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #66402B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Nút quay lại */
+.back-btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.back-btn img {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.back-btn img:hover {
+    opacity: 0.7;
+}
+
+/* Nội dung chính */
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+/* Tiêu đề chính */
+main h2 {
+    font-size: 24px;
+    color: #1b1a19;
+    margin-bottom: 20px;
+}
+
+/* Nội dung văn bản */
+p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 20px;
+}
+ul {
+    text-align: left;
+    margin-left: 40px;
+}
+ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="CSS/DK.css">
+</head>
+<body>
+    <!-- Nút quay lại trang chủ -->
+    <a href="Home.html" class="back-button">
+        <img src="Images/icon QL.png" alt="Quay lại trang chủ">
+    </a>
+
+    <div class="container">
+        <h2>Đăng Ký Tài Khoản</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Họ và tên" required>
+            <input type="text" placeholder="Tên đăng nhập" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Số điện thoại" required>
+            <input type="password" placeholder="Mật khẩu" required>
+            <input type="password" placeholder="Nhập lại mật khẩu" required>
+
+            <label for="role">Chọn vai trò:</label>
+            <select id="role" name="role">
+                <option value="khachhang">Khách hàng</option>
+                <option value="nhanvien">Nhân viên</option>
+                <option value="quanly">Quản lý</option>
+            </select>
+
+            <div class="terms">
+                <input type="checkbox" id="agree" required>
+                <label for="agree">Tôi đồng ý với <a href="terms.php">điều khoản sử dụng</a></label>
+            </div>
+
+            <button type="submit">Đăng Ký</button>
+        </form>
+
+        <div class="link">
+            <a href="dangnhap.html">Đã có tài khoản? Đăng nhập</a> 
+        </div>
+    </div>
+</body>
+</html>

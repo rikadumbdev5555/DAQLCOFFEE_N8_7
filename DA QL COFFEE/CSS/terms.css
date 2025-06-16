@@ -1,0 +1,55 @@
+/* Định dạng chung */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cbb581; /* Màu nền cà phê đậm */
+    color: #fff; /* Chữ trắng giúp dễ đọc */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container chính */
+.container {
+    max-width: 800px;
+    background: #75564b; /* Màu nâu nhạt giống màu cà phê sữa */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+}
+
+/* Tiêu đề */
+h2, h3 {
+    color: #d7ccc8; /* Màu be nhẹ, giống bọt sữa */
+}
+
+/* Định dạng văn bản */
+p {
+    line-height: 1.6;
+    color: #efebe9; /* Màu kem nhẹ, giúp dễ đọc */
+}
+
+/* Định dạng nút "Quay lại đăng ký" */
+a {
+    display: inline-block;
+    background: #8d6e63; /* Màu nâu nhẹ nhàng */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    position: fixed;
+    top: 20px;  /* Đặt nút ở trên cùng */
+    left: 20px; /* Đặt nút ở góc trái */
+}
+
+a:hover {
+    background: #5d4037; /* Tối hơn một chút khi hover */
+}
+
+/* Định dạng chung cho liên kết */
+.container a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
