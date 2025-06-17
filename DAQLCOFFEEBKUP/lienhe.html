@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ với Quán Cà Phê</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #66402B;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #66402B;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #56311A;
+        }
+        .hotline-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .hotline-btn {
+            padding: 10px 20px;
+            background-color: #00aaff;
+            color: #fff;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .hotline-btn:hover {
+            background-color: #0077cc;
+            transform: translateY(-2px);
+        }
+        .hotline-btn img {
+            width: 18px;
+            height: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Liên hệ với Quán Cà Phê</h1>
+    </header>
+    <main>
+        <h2>Gửi lời nhắn tới chúng tôi</h2>
+        <form action="#" method="post">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="gmail">Gmail:</label>
+            <input type="gmail" id="gmail" name="gmail" required>
+    
+            <label for="message">Lời nhắn:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit">Gửi</button>
+        </form>
+        <p><strong>Địa chỉ:</strong> 123 Đường Cà Phê, Quận 1, TP.HCM</p>
+        <p><strong>Hotline:</strong> (+84) 32-971-7751</p>
+        <p><strong>Gmail:</strong> contact@quan-cafe-bat on.com</p>
+    </main>
+    <div class="hotline-container">
+        <a class="hotline-btn" href="https://zalo.me/0329717751" target="_blank">
+            <img src="Images/zalo.png" alt="Zalo Icon"> Zalo
+        </a>
+        <a class="hotline-btn" href="mailto:contact@quan-cafe.com">
+            <img src="Images/gmail.png" alt="Gmail Icon"> Gmail
+        </a>
+        <a class="hotline-btn" href="https://www.facebook.com/yourfacebookpage" target="_blank">
+            <img src="Images/facebook.png" alt="Facebook Icon"> Facebook
+        </a>
+    </div>
+</body>
+</html>

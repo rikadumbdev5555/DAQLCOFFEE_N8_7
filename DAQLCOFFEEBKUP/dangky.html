@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="CSS/dangky.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Đăng Ký</h2>
+        <form id="signupForm">
+            <div class="input-container">
+                <input type="text" id="name" placeholder="Tên của bạn" required>
+            </div>
+
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Mật khẩu" required>
+                <span onclick="togglePassword()" class="eye-icon">👁</span>
+            </div>
+
+            <div class="password-container">
+                <input type="password" id="confirm_password" placeholder="Xác nhận mật khẩu" required>
+                <span onclick="toggleConfirmPassword()" class="eye-icon">👁</span>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="address" placeholder="Địa chỉ" required>
+            </div>
+
+            <div class="input-container">
+                <select id="gender" required>
+                    <option value="" disabled selected>Chọn giới tính</option>
+                    <option value="male">Nam</option>
+                    <option value="female">Nữ</option>
+                    <option value="other">Khác</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <select id="education" required>
+                    <option value="" disabled selected>Chọn trình độ</option>
+                    <option value="highschool">THPT</option>
+                    <option value="bachelor">Cao đẳng(Đại học)</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <input type="tel" id="phone" placeholder="Số điện thoại" required>
+            </div>
+
+            <button type="submit">Đăng Ký</button>
+        </form>
+
+        <div class="link">
+            <a href="dangnhap.html">Quay Lại Đăng Nhập</a>
+        </div>
+    </div>
+
+    <script src="Java/dangky.js"></script>
+    <script>
+    function login() {
+        const usernameInput = document.getElementById("username").value;
+        if (usernameInput) {
+            localStorage.setItem("username", usernameInput);
+            window.location.href = "Home.html"; // chuyển về trang chủ
+        }
+    }
+</script>
+
+</body>
+</html>
