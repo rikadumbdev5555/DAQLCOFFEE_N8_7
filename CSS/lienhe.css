@@ -1,0 +1,101 @@
+/* Định dạng chung */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #3e2723;
+    color: #d7ccc8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề */
+header {
+    background-color: #5d4037;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+/* Nội dung chính */
+main {
+    background-color: #ffffff;
+    color: #3e2723;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Form nhập liệu */
+form {
+    text-align: center;
+}
+
+form label {
+    font-weight: bold;
+    color: #5d4037;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #795548;
+    border-radius: 4px;
+    background-color: #efebe9;
+}
+
+/* Nút gửi */
+form button {
+    display: block;
+    margin: 20px auto; /* Căn giữa nút */
+    background-color: #795548;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #6d4c41;
+}
+
+/* Hộp chứa nút hotline */
+.hotline-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Nút hotline */
+.hotline-btn {
+    padding: 12px 24px;
+    background-color: #8d6e63;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hotline-btn:hover {
+    background-color: #6d4c41;
+    transform: translateY(-3px);
+}
+
+.hotline-btn img {
+    width: 20px;
+    height: 20px;
+}
